@@ -1,0 +1,165 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+border-bottom: 1px solid seashell;
+opacity: 1;
+z-index: 10;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+header {
+height: 69px;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#jar {
+    height: 700px;
+}
+
+.mission {
+    width: 1200px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h2 {
+    font-size: 150%;
+}
+
+.month {
+    width: 1000px;
+    margin: auto;
+}
+
+.photos {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin:auto;
+}
+
+#berry {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.berry {
+    text-align: center;
+    display: block;
+}
+
+#rum {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.rum {
+    text-align: center;
+    display: block;
+}
+
+#donuts {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.donuts {
+    text-align: center;
+    display: block;
+}
+
+#myrtle {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.myrtle {
+    text-align: center;
+    display: block;
+}
+
+#bedford {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.bedford {
+    text-align: center;
+    display: block;
+}
+
+.location-img {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('Images/img-locations-background.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top {
+    background-color: transparent;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-box {
+    opacity: 1;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    flex-basis: 30%;
+    margin-bottom: auto;
+}
+
+#contact {
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+footer {
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
